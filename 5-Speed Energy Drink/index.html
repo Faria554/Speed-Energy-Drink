@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Speed</title>
+</head>
+
+<body>
+    <section class="sec">
+        <header>
+            <a href="#"><img src="/images/logo.png" class="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Novidades</a></li>
+                <li><a href="#">Contactos</a></li>
+            </ul>
+        </header>
+
+        <div class="content">
+            <div class="textBox">
+                <h2>Energia </br><Span>sem limites</Span></h2>
+                <p>A bebida que ocupa a posição de marca líder na categoria das energéticas, a Speed reforça a proximidade junto do target jovem, transmitindo o espiríto e promessa da marca. 
+                Speed é uma bebida para todos os que procuram viver a vida com mais Energia.
+                </p>
+                <a href="#"> Ver todos os Productos</a>
+            </div>
+            <div class="imgBox">
+                <img src="/images/speed1.png" class="speed" alt="">
+            </div>
+        </div>
+
+        <ul class="thumb">
+            <li><img src="/images/speed1.png" onclick="imgSlider('/images/speed1.png')" alt=""></li>
+            <li><img src="/images/speed2.png" onclick="imgSlider('/images/speed2.png')" alt=""></li>
+        </ul>
+    </section>
+
+   <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.speed').src = anything;
+        }
+    </script>
+</body>
+
+
+
+</html>
